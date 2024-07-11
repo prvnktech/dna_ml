@@ -2,6 +2,7 @@
 Machine Learning projects for Digital Nexus AI
 
 Gradient Boosting Classifier
+
 **Problem Statement:** 
 Classify cars into different categories (e.g., "Economy", "Midsize", "Luxury") based on various features such as horsepower, weight, engine size, etc.
 
