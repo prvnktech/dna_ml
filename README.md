@@ -13,3 +13,24 @@ Classify cars into different categories (e.g., "Economy", "Midsize", "Luxury") b
 - Model Training: We trained a GradientBoostingClassifier on the transformed training data.
 - Evaluation: We evaluated the model using accuracy, classification report, and confusion matrix.
 - Visualization: We plotted the first two principal components to visualize the data.
+
+**Data Generation:**
+Generates synthetic data for 100 individuals picking 10 items, with labels representing feminine, masculine, and neutral classes.
+Adds a 'Make' column representing car brands as a categorical feature.
+Data Preprocessing:
+
+Uses one-hot encoding to convert the categorical 'Make' column to numerical form.
+Standardizes the features for better performance of the SVM.
+Data Splitting:
+
+Splits the data into training and test sets.
+Model Training:
+
+Trains an SVM classifier using the training data.
+Model Evaluation:
+
+Evaluates the classifier on the test data and prints accuracy and classification report.
+Visualization:
+
+Optionally plots the data using PCA only for visualization purposes (not for model training).
+This program provides a complete pipeline for classification using SVM, including preprocessing, training, evaluation, and visualization of the results.
